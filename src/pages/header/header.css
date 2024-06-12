@@ -1,0 +1,94 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 15px 0;
+    background-image: url(./img/bgc.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 900px;
+   
+    
+    
+}
+.nav{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    margin: 30px 0;
+   
+}
+.header_tabel{
+    box-sizing: border-box;
+    width: 1120px;
+    border-collapse: collapse;
+    text-align: center;
+
+    
+}
+
+.header_tabel tr{
+    padding: 10px;
+    
+}
+.header_tabel td {
+    border: 1px solid white;
+    padding: 10px;
+
+}
+.header_tabel td a  {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 21.82px;
+}
+.header_tabel td:hover {
+    text-decoration: underline;
+    color: white;
+}
+.header_btn button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: #998431;
+    margin-left: 20px;
+    position: relative;
+    top: 570px;
+    left: 715px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.header_btn button:hover{
+    opacity: 0.8;
+}
+
+@media(max-width:600px){
+.header{
+   background-image: url(./img/imagesvino.jfif);
+   background-size: cover;
+    width: 500px;
+    margin: 0 auto;
+    
+    
+    
+}
+.header_tabel {
+    width: 350px;
+    margin: 0 auto;
+}
+.header_nav{
+    justify-content: space-around;
+}
+.header_btn{
+    position: relative;
+    right: 660px;
+}
+}
